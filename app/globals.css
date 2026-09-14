@@ -2492,3 +2492,9 @@ article[id] {
     justify-content: center;
   }
 }
+
+.wordmark-name-only {
+  padding-left: 0;
+  margin-left: 0;
+  border-left: 0;
+}

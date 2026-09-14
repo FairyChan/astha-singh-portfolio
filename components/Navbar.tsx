@@ -33,9 +33,8 @@ function Navigation({ pathname }: { pathname: string }) {
       }}
     >
       <nav className="container nav" aria-label="Main navigation">
-        <a className="wordmark" href="/" aria-label="Astha Singh - home">
-          as<span>.</span>
-          <span className="wordmark-name">ASTHA SINGH</span>
+        <a className="wordmark" href="/" aria-label="Astha Singh — home">
+          <span className="wordmark-name wordmark-name-only">ASTHA SINGH</span>
         </a>
         <div className="desktop-nav">
           {links.map(({ href, label }) => (
